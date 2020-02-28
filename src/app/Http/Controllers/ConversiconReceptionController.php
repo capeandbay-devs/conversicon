@@ -38,7 +38,6 @@ class ConversiconReceptionController extends Controller
         {
             case 'log':
                 Log::info('Message Received From Conversica -', $data);
-                $results = ['success' => true];
                 break;
 
             case 'queue':
