@@ -2,7 +2,7 @@
 
 Route::group([
     'namespace' => 'CapeAndBay\Conversicon\Http\Controllers',
-    'middleware' => 'conversica.basic',
+    'middleware' => 'conversicon.basic',
     'prefix' => config('conversica.route_prefix')
 ], function() {
     Route::post('/message', 'ConversiconReceptionController@message');
