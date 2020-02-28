@@ -16,5 +16,9 @@ return [
     'deets' => [
         'username' => env('CONVERSICA_API_USERNAME',''),
         'password' => env('CONVERSICA_API_PASSWORD',''),
+    ],
+    'basic' => [
+        'username' => env('CONVERSICA_BASIC_USERNAME',''),
+        'password' => env('CONVERSICA_BASIC_PASSWORD',''),
     ]
 ];

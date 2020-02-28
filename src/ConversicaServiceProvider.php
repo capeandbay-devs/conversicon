@@ -5,6 +5,7 @@ namespace CapeAndBay\Conversicon;
 use Route;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
+use CapeAndBay\Conversicon\Http\Middleware\ValidateBasicHeader;
 
 class ConversicaServiceProvider extends ServiceProvider
 {
@@ -49,6 +50,7 @@ class ConversicaServiceProvider extends ServiceProvider
         $this->setupCustomRoutes($this->app->router);
         $this->publishFiles();
         $this->checkLicenseCodeExists();
+        $this->registerMiddleware($router);
     }
 
     /**
@@ -119,5 +121,15 @@ class ConversicaServiceProvider extends ServiceProvider
     private function checkLicenseCodeExists()
     {
 
+    }
+
+    /**
+     * Publish the package's middleware.
+     *
+     * @return void
+     */
+    protected function registerMiddleware(Router $router)
+    {
+        $router->pushMiddlewareToGroup('conversicon.basic', ValidateBasicHeader::class);
     }
 }
