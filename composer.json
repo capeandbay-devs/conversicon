@@ -1,0 +1,61 @@
+{
+    "name": "capeandbay/conversicon",
+    "type": "library",
+    "description": "An API Connector for the Conversica SaaS",
+    "keywords": [
+        "capeandbay",
+        "conversica",
+        "leads",
+        "ai",
+        "laravel"
+    ],
+    "authors": [
+        {
+            "name": "Angel Gonzalez",
+            "email": "angel@capeandbay.com"
+        }
+    ],
+    "require": {
+        "php" : "^7.2",
+        "ixudra/curl": "^6.17",
+        "illuminate/config": "^6.0",
+        "illuminate/database": "^6.0",
+        "illuminate/support": "^6.0"
+    },
+    "require-dev": {
+        "ext-json": "*",
+        "phpunit/phpunit": "^8.0",
+        "orchestra/testbench": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "CapeAndBay\\Conversicon\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CapeAndBay\\Conversicon\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "license": "MIT",
+    "extra": {
+        "laravel": {
+            "branch-alias": {
+                "dev-master": "1.0-dev"
+            },
+            "providers": [
+                "CapeAndBay\\Conversicon\\ConversicaServiceProvider"
+            ],
+            "aliases": {
+                "Conversicon": "CapeAndBay\\Conversicon\\Facades\\Conversicon"
+            }
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true
+}
