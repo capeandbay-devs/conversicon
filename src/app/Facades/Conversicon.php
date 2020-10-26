@@ -1,6 +1,6 @@
 <?php
 
-namespace CapeAndBay\Conversicon\Facades;
+namespace CapeAndBay\Conversicon\app\Facades;
 
 use CapeAndBay\Conversicon\Conversica;
 use Illuminate\Support\Facades\Facade;

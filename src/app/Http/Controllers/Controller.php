@@ -1,6 +1,6 @@
 <?php
 
-namespace CapeAndBay\Conversicon\Http\Controllers;
+namespace CapeAndBay\Conversicon\app\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Foundation\Validation\ValidatesRequests;

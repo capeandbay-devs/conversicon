@@ -1,6 +1,6 @@
 <?php
 
-namespace CapeAndBay\Conversicon\Http\Middleware;
+namespace CapeAndBay\Conversicon\app\Http\Middleware;
 
 use Closure;
 

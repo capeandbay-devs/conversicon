@@ -1,6 +1,6 @@
 <?php
 
-namespace CapeAndBay\Conversicon\Http\Controllers;
+namespace CapeAndBay\Conversicon\app\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Log;
