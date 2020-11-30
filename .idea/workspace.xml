@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c03f8c8-fd4b-47b6-80fc-15a59a2163fd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/app/Facades/Conversicon.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Facades/Conversicon.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/Controller.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/Controller.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Controllers/ConversiconReceptionController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Controllers/ConversiconReceptionController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/Http/Middleware/ValidateBasicHeader.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Http/Middleware/ValidateBasicHeader.php" afterDir="false" />
-    </list>
+    <list default="true" id="7c03f8c8-fd4b-47b6-80fc-15a59a2163fd" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,7 +36,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1603752012956</updated>
-      <workItem from="1603752014433" duration="50000" />
+      <workItem from="1603752014433" duration="224000" />
     </task>
     <servers />
   </component>
