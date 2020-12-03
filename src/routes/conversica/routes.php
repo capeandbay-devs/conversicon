@@ -1,7 +1,7 @@
 <?php
 
 Route::group([
-    'namespace' => 'CapeAndBay\Conversicon\Http\Controllers',
+    'namespace' => 'CapeAndBay\Conversicon\app\Http\Controllers',
     'middleware' => 'conversicon.basic',
     'prefix' => config('conversica.route_prefix')
 ], function() {
